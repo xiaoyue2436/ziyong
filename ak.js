@@ -8,7 +8,7 @@
  *
  * ========= 青龙--配置文件 =========
  * 变量格式: export aokang_data=' ezr-vuid & ezr-st & ezr-ss & ezr-userid '   ,多账号用 换行 或 @ 分割
- * 抓wxa-up.ezrpro.com下 ezr-vuid  ezr-st   ezr-ss   ezr-userid的值
+ * 抓wxa-tp.ezrpro.com下 ezr-vuid  ezr-st   ezr-ss   ezr-userid的值
  */
 
  const { log } = require("console");
@@ -21,7 +21,7 @@
  let ckStr = ($.isNode() ? process.env.aokang_data : $.getdata('aokang_data')) || '';
  let msg, ck;
  let ck_status = true;
- let host = 'wxa-up.ezrpro.com';
+ let host = 'wxa-tp.ezrpro.com';
  let hostname = 'https://' + host;
  
  //---------------------------------------------------------------------------------------------------------
