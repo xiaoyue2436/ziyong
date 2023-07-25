@@ -3,8 +3,8 @@
 
 脚本兼容:  Node.js
 [task_local]
-#辛喜小程序
-0  12 * *  * kww.js, tag=辛喜王小程序, enabled=true
+# cron:15 13 * * *  kww.js, tag=辛喜王小程序, enabled=true
+# const $ = new Env('辛喜小程序');
 抓包 header里的sso
 export xinxiCookie="" 
 */
