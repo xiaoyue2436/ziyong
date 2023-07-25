@@ -1,7 +1,7 @@
 /*
  
  APP：电视家
- cron 11 6-20/5 * * *
+ cron:11 6-20/5 * * *
  */
 const $ = new Env("电视家");
 const notify = $.isNode() ? require('./sendNotify') : '';
