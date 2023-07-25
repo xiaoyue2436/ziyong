@@ -7,7 +7,7 @@
  抓不到包的找这个     /api/user_mumber/account_detail   请求体里的  X-SESSION-ID , X-REQUEST-ID
  变量：sanquCookie='X-SESSION-ID & X-REQUEST-ID'  多账号用 换行 或 @ 分割
  定时一天一次
- cron 10 8 * * *
+ cron:53 10,23 * * *
  */
 
 const $ = new Env("三衢");
