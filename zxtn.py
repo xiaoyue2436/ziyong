@@ -11,7 +11,6 @@ import json
 import os
 import requests
 import notify
-const $ = new Env("掌心潼南")
 headers = {
     'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.2; M2012K11AC Build/N6F26Q)'
 }
