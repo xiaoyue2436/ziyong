@@ -5,7 +5,7 @@
  抓包：https://vapp.tmuyun.com/ 任意-请求头中 x-session-id 或使用 手机号#密码 两者互不影响
  变量：pingyck='xxxx@12345678910#abcdefg '  多个账号用 @ 或者 换行 分割
  定时一天三次
- cron 53 8,15,22 * * *
+ cron:53 8,15,22 * * *
  */
  const $ = new Env('爱平阳')
  const notify = $.isNode() ? require('./sendNotify') : '';
