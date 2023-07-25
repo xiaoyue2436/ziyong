@@ -2,7 +2,7 @@
  *
  * 仰韶会员俱乐部  小程序
  *
- * cron 0 0,7 * * *  
+ * cron 11 10 * * *  
  * 
  * 需要自行安装silly-datetime依赖！！！
  * 需要自行安装silly-datetime依赖！！！
@@ -17,7 +17,7 @@
 
  const { log } = require("console");
 
- const $ = new Env("仰韶");
+ const $ = new Env("仰韶会员俱乐部 小程序");
  const date = require('silly-datetime');
  const signTime = date.format(new Date(),'YYYY-MM-DD');
  const notify = $.isNode() ? require("./sendNotify") : "";
