@@ -2,7 +2,7 @@
  *
  * 特仑苏官方商城  小程序
  *
- * cron 20 2,19 * * *  拉库地址，不存在的
+ * cron:20 2,19 * * *  script-path=xxx.py,tag=匹配cron用
  *
  * 7-6		签到兑换实物
  * 7-14     增加积分查询
@@ -13,7 +13,7 @@
 
  const { log } = require("console");
 
- const $ = new Env("特仑苏");
+ const $ = new Env("特仑苏官方商城  小程序");
  const notify = $.isNode() ? require("./sendNotify") : "";
  const Notify = 1 		//0为关闭通知,1为打开通知,默认为1
  const debug = 1			//0为关闭调试,1为打开调试,默认为0
