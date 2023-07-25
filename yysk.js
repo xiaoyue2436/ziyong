@@ -7,7 +7,7 @@ shike.com 抓包的域名。。
 一天跑个五次吧。。
 7.14 加入自动提现
 下载链接  https://wx.shike.com/i/UUqhExC
-cron "22 4,19  * * * " 
+cron:22 4,19  * * * 
 
 */
 const $ = new Env('应用试客');
