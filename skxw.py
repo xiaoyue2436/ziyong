@@ -2,7 +2,8 @@
 """
 项目:时刻新闻APP
 抓包a.rednet.cn里的userid，环境变量skxw，多账号换行分开
-cron 43 */12 * * *
+cron:43 */12 * * *
+const $ = new Env('时刻新闻');
 作者：cason
 """
 import json
