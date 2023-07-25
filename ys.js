@@ -2,7 +2,7 @@
  *
  * 仰韶会员俱乐部  小程序
  *
- * cron 11 10 * * *  
+ * cron "11 10 * * * " script-path=xxx.py,tag=匹配cron用 
  * 
  * 需要自行安装silly-datetime依赖！！！
  * 需要自行安装silly-datetime依赖！！！
