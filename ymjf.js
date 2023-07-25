@@ -2,7 +2,7 @@
  *
  * 有蜜积分 小程序
  *
- * cron "16 3,9 * * * " script-path=xxx.py,tag=匹配cron用
+ * cron:16 3,9 * * *  script-path=xxx.py,tag=匹配cron用
  * 
  * 作者：心雨
  *
