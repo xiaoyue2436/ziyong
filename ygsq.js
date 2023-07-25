@@ -4,7 +4,8 @@
 会越来越高。实名先不管，先挂着，够提现了再去实名吧，我提过二十测试到账。。
 抓包域名 hwapi.anttalk.vip:9019
 变量 ygsqtoken  抓包 请求头authorization的全部值
-cron:15 9,15 * * *
+cron:15 9,15 * * *  script-path=xxx.py,tag=匹配cron用
+const $ = new Env('云柑社区');
 下载链接 用微信打开#小程序://云柑社区/首页/ryZersq86eWtb8D
 */
 
