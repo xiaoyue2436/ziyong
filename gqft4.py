@@ -1,5 +1,5 @@
 """
-cron:  7 14,22 * * *
+cron:  47 14,22 * * *
 const $ = new Env("广汽丰田4")
 """
 import json
