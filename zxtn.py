@@ -4,6 +4,8 @@
 新版本打不开下载旧版本，登录密码设置为123456abc
 手机号填入环境变量zxtn，换行分割
 每天一次即可
+# cron "52 */12 * * *" script-path=xxx.py,tag=匹配cron用
+# const $ = new Env('掌心潼南');
 作者：cason
 项目地址：https://github.com/Pcason/demo1/blob/main/zxtn.py
 """
