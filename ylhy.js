@@ -7,7 +7,7 @@
 支持圈X,青龙等。。
 抓包域名 wx-fulishe.msx.digitalyili.com 下body里的encryptsessionid
 重写：https://wx-fulishe.msx.digitalyili.com/brandwxa/api/vip/getinfo url script-request-body ylhy.js
-cron: 55 3,21 * * *
+cron:55 3,21 * * *
 const $ = new Env("伊利会员福利社");
 */
 
