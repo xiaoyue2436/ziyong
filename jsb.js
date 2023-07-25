@@ -2,7 +2,7 @@
  *
  * 杰士邦安心福利社  小程序
  *
- * cron 38 1,13 * * *
+ * cron:38 1,13 * * *
  *
  * 7-12 签到
  * 7-16 增加积分查询
@@ -12,7 +12,7 @@
  * 抓m.jissbon.com下任意请求头的access-token填入变量
  */
 
- const $ = new Env("杰士邦");
+ const $ = new Env("杰士邦安心福利社  小程序");
  const notify = $.isNode() ? require("./sendNotify") : "";
  const Notify = 1 		//0为关闭通知,1为打开通知,默认为1
  const debug = 0			//0为关闭调试,1为打开调试,默认为0
