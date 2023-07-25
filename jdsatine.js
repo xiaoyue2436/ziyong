@@ -2,7 +2,7 @@
  *
  *金典SATINE  小程序
  *
- * cron 20 3,16 * * *
+ * cron:20 3,16 * * *
  * yml2213_javascript_master/jdsatine.js
  * 7-25		签到，积分查询
  *
@@ -13,7 +13,7 @@
 
  const { log } = require("console");
 
- const $ = new Env("金典");
+ const $ = new Env("金典SATINE  小程序");
  const notify = $.isNode() ? require("./sendNotify") : "";
  const Notify = 1 		//0为关闭通知,1为打开通知,默认为1
  const debug = 0		//0为关闭调试,1为打开调试,默认为0
