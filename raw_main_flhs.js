@@ -22,7 +22,7 @@ export flhsCookie='抓取的Cookie1@抓取的Cookie2'
 一小时运行一次即可
 [task_local]
 #返利好省
-14 8-20 * * *
+cron:24 8-20 * * *
  https://raw.githubusercontent.com/YaphetS0903/JStest/main/flhs.js, tag=返利好省, enabled=true
 [rewrite_local]
 #返利好省
