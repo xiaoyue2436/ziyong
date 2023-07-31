@@ -4,7 +4,8 @@
  * header后面的safe的值
  * 例如safe=123456789
  * 变量格式 export zmnlxq = 'XXXXXX'
- * cron：47 2,15 * * *
+ * cron:47 2,15 * * *
+ * const $ = Env('战马能量星球-养马篇3');
  */
  
 const $ = Env('战马能量星球-养马篇3');
