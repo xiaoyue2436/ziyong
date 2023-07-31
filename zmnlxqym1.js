@@ -1,10 +1,11 @@
-/**
+/*
  * 微信小程序：战马能量星球
  * 抓包：get请求 https://zm.t7a.cn/api
  * header后面的safe的值
  * 例如safe=123456789
  * 变量格式 export zmnlxq = 'XXXXXX'
- * cron：27 2,15 * * *
+ * cron:27 2,15 * * *
+ * const $ = Env('战马能量星球-养马篇1');
  */
  
 const $ = Env('战马能量星球-养马篇1');
