@@ -14,7 +14,7 @@ export soy_ddbl_data="token"
 多账号用 换行 或 @ 或 #分割
 
 一天一次
-cron:42 6-23 * * *
+cron:0 6-23 * * *
 
 */
 
