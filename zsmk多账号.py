@@ -1,5 +1,5 @@
 '''
-new Env("zmck")
+new Env("知识米库")
 by苞谷麻薯
 1广告 ＝1积分 1积分＝分洪0.2-0.6 金币 1金币＝1米 1米提支宝  签到每天可以签到两次多获取1积分，共2积分
 多账号版
@@ -15,7 +15,7 @@ import requests
 import os
 
 
-cookie= os.getenv("知识米库")
+cookie= os.getenv("zsmkck")
 token_list = cookie.split('\n')
 
 def sign(token):
