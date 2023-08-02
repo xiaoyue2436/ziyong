@@ -5,7 +5,7 @@ by苞谷麻薯
 多账号版
 抓包：tocken即可
 变量名：zsmkck
-cron 0 7,8 * * *
+cron:20 7,8 * * *
 v1.0
 '''
 
@@ -15,7 +15,7 @@ import requests
 import os
 
 
-cookie= os.getenv("zsmkck")
+cookie= os.getenv("知识米库")
 token_list = cookie.split('\n')
 
 def sign(token):
