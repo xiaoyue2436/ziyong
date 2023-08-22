@@ -6,7 +6,7 @@ import os
 # 抓登录的包 链接里带login的，这个包里的ck（例如：user_session=8s93xxx）和csrf（应该在请求提里面），你的账号#密码#csrf#ck
 #环境变量LHDLCK 值为ck 多账号版，或账号@隔开
 #一天一次
-#cron:13 13 * * * * * *
+#cron:13 13 * * *
 #const $ = new Env("神龙大陆");
 CKS = os.getenv("LHDLCK")
 
