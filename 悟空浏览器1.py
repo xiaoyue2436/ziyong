@@ -4,7 +4,7 @@
 搜索 device_id 抓该接口的url、cookie 、argus、ladon
 cookies格式 wkck = "url#cookie#argus#ladon"
 const $ = new Env("悟空浏览器");
-cron:15 */3 * * *
+cron:35 */3 * * *
 bug提交 https://t.me/jiangyutck
 
 """
