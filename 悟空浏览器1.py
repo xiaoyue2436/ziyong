@@ -3,7 +3,7 @@
 无限刷金币
 搜索 device_id 抓该接口的url、cookie 、argus、ladon
 cookies格式 wkck = "url#cookie#argus#ladon"
-const $ = new Env("悟空浏览器");
+const $ = new Env("悟空浏览器1");
 cron:35 */3 * * *
 bug提交 https://t.me/jiangyutck
 
@@ -23,7 +23,7 @@ import json
 now = str(round(time.time()*1000))
 kami=""
 cookies=os.getenv("wkck1")
-ua = "com.cat.readall/11930 (Linux; U; Android 12; zh_CN; M2004J7BC; Build/SP1A.210812.016; Cronet/TTNetVersion:5a18c8d3 2022-07-19 QuicVersion:12a1d5c5 2022-06-27)"
+ua = "com.cat.readall/11930 (Linux; U; Android 12; zh_CN_#Hans; TNA-AN00; Build/HONORTNA-AN00; Cronet/TTNetVersion:5a18c8d3 2022-07-19 QuicVersion:12a1d5c5 2022-06-27)"
 
 
 
